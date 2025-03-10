@@ -5,14 +5,13 @@ import os
 PARENT_DIR = Path(__name__).parent.resolve().parent
 
 # Data Directory
-DATA_DIR = PARENT_DIR.joinpath('data')
-print(DATA_DIR)
+DATA_DIR = PARENT_DIR / 'data'
 
 # Weather Raw Data Directory
-RAW_DATA_DIR = PARENT_DIR / 'data' / 'bronze'
+RAW_DATA_DIR = PARENT_DIR / 'data' / 'raw_data'
 
 # Weather Transformed Data Diectory
-TRANSFORMED_DATA_DIR = PARENT_DIR / 'data' / 'gold'
+TRANSFORMED_DATA_DIR = PARENT_DIR / 'data' / 'transformed_data'
 
 # Model Directory
 MODELS_DIR = PARENT_DIR / 'models'

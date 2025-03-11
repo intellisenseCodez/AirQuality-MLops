@@ -11,7 +11,7 @@ import requests
 sys.path.insert(0, str(Path().resolve().parent / "../src"))
 from paths import *
 
-
+load_dotenv()
 
 
 # Lagos latitude and longitude
